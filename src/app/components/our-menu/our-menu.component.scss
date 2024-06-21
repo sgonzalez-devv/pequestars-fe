@@ -1,0 +1,84 @@
+.heading {
+  padding-top: 6rem;
+  h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+.container {
+  width: 80%;
+  position: relative;
+  padding-top: 2em;
+  overflow: hidden;
+  .planet-counter{
+    a{
+      text-decoration: none;
+      color: white;
+        img{
+          width: fit-content;
+          max-width: 100%;
+        }
+    }
+  }
+  
+  .planet-counter:nth-child(1){
+    display: flex;
+    justify-content: start;
+  }
+  .planet-counter:nth-child(2){
+    display: flex;
+    justify-content: end;
+  }
+  .planet-counter:nth-child(3){
+    display: flex;
+    justify-content: start;
+  }
+  .planet-counter:nth-child(4){
+    display: flex;
+    justify-content: end;
+  }
+  .planet-counter:nth-child(5){
+    display: flex;
+    justify-content: start;
+  }
+}
+
+@media only screen and (max-width: 1260px) {
+  .UFO {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .UFO {
+    display: none;
+  }
+  .container{
+    width: 100%;
+    position: relative;
+    padding-top: 2em;
+    overflow: hidden;
+    .planet-counter{
+      display: flex;
+      justify-content: center;
+  }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+    .container{
+      .planet-counter{
+        position: relative;
+        width: 100%;
+        margin: 7rem 0;
+        a{
+          width: 100%;
+          img{
+            width: fit-content;
+            max-width: 100%;
+          }
+        }
+      }
+    }
+}

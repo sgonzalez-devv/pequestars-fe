@@ -1,0 +1,37 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: Brown-Falco, sans-serif;
+  color: white;
+}
+
+@font-face {
+  font-family: Brown-Falco;
+  src: url(./assets/fonts/Brown-Falco.otf);
+}
+
+::-webkit-scrollbar {
+  width: 8px; /* ancho del scroll */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ffffff; /* color de fondo del scroll */
+  border-radius: 10px; /* radio de borde del scroll */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  transition-duration: 0.5s;
+  background-color: #3d0233; /* color de fondo del scroll al pasar el mouse */
+}
+
+::-webkit-scrollbar-track {
+  background: linear-gradient(
+    180deg,
+    rgba(17, 15, 42, 1) 0%,
+    rgba(33, 25, 34, 1) 50%,
+    rgba(17, 15, 42, 1) 100%
+  );; /* color de fondo de la pista del scroll */
+}

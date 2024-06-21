@@ -1,30 +1,27 @@
-# pequestars
-**PequeStarsProject**: A Galactic Single-Page App for Kid-Friendly Restaurants! 🌌🚀🍔
+# PequeStarsProject
 
-This project is a **captivating single-page application (SPA)** built with **Angular 15**, designed to provide a fun and engaging dining experience for children in restaurants. With a **captivating galactic theme**, *PequeStarsProject* will transport young space explorers on an **interstellar adventure** while showcasing your restaurant's **delicious offerings**.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.1.
 
-**Key Features**:
+## Development server
 
-- **Galactic Theme**: Immerse children in a world of stars, planets, and spaceships, making mealtimes exciting and memorable. 🌟🪐🛸
-- **Interactive Design**: Utilize animations, sound effects, and engaging visuals to capture children's attention and keep them entertained. 🎨🎉👦👧
-- **User-Friendly Interface**: **Bootstrap** ensures a responsive and easy-to-navigate layout, suitable for various screen sizes and devices. 📱💻
-- **TypeScript Support**: Leverages TypeScript for robust type checking and improved code maintainability. ✨⌨️
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-**Built with Cutting-Edge Technologies**:
+## Code scaffolding
 
-- **Angular 15**: The latest version of Angular provides a powerful framework for building dynamic and interactive web applications. 🅰️1️⃣5️⃣
-- **Bootstrap 5**: Offers a comprehensive set of UI components and utilities for creating modern and responsive layouts. 🅱️5️⃣
-- **ngx-scrollreveal**: Enhances user experience with smooth and engaging scrolling animations. 🔄🎇
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-**Getting Started**:
+## Build
 
-1. Clone the repository from GitHub.
-2. Install dependencies using `npm install`.
-3. Run `ng serve` to launch the development server and access the application at http://localhost:4200/.
-4. Refer to the **README.md** file for detailed instructions on building, testing, and deploying the application. 📝🔧
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-**Customization and Collaboration**:
+## Running unit tests
 
-*PequeStarsProject* serves as a **solid foundation** for creating a unique and interactive dining experience for your restaurant. Feel free to **customize** the theme, animations, and content to match your brand identity and menu. The included TypeScript support encourages **clean and maintainable code**, making collaboration with other developers a breeze. 🛠️💬
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-Let *PequeStarsProject* take your young patrons on an **unforgettable galactic adventure** while they enjoy their **delicious meals**! 🌠🍽️
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
